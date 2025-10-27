@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimal Site</title>
+  <style>
+    /* ===== Basic CSS Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, World 👋</h1>
+  <p>Welcome to your minimal website.</p>
+  <button id="changeTextBtn">Click Me</button>
+
+  <footer>© 2025 Minimal Site</footer>
+
+  <script>
+    // ===== Simple JS Interaction =====
+    const button = document.getElementById("changeTextBtn");
+    const message = document.querySelector("p");
+
+    button.addEventListener("click", () => {
+      message.textContent = "You clicked the button!";
+      button.style.backgroundColor = "#28a745";
+      button.textContent = "Clicked!";
+    });
+  </script>
+</body>
+</html>
