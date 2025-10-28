@@ -2,7 +2,8 @@
 A repo for studying github
 
 
-GDGC for git:
+GDGC for git: 
+<br>
 Name - Kankan Kalita
-br
+<br>
 Scholar ID - 25CS10124
