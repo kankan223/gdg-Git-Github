@@ -7,3 +7,5 @@ GDGC for git:
 Name - Kankan Kalita
 <br>
 Scholar ID - 25CS10124
+<br>
+Email - kankan_ug_25@cse.nits.ac.in
